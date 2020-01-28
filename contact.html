@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Site Responsive Teste ">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="shortcut icon" href="img/olivier-logomini.png">
+    <title> Contact </title>
+  </head>
+  <body>
+  <div class="page">
+    <nav id="header">
+        <div class="logohaut center">
+          <img src="img/olivier-logo.png" alt="logo Olivier, hologer de prestige">
+        </div>
+
+        <div class="menu flex center" >
+            <ul class="navbar flex between ">                                                            <!-- navbar droite  Texte fin sans sérif -->
+                <li><a href="index.html"><span>Accueil</span></a></li>
+                <li><a href="services.html"><span>Services</span></a></li>
+                <li><a href="a_propos.html"><span>A propos</span></a></li>
+                <li><a href="contact.html"><span>Contact</span></a></li>
+            </ul>
+        </div>
+    </nav>
+      <section class="corps wrap">
+        <div class="boxcontact">
+        <form methode="post" action="#">
+          <fieldset>
+          <legend>Vos coordonnées:</legend>
+        <div class="nomprenom">
+          <p>
+            <label for="nom">Nom:</label>
+            <input type="text" name="Nom" id="nom" maxlenghth="15" autofocus required/>
+          </p>
+          <p>
+            <label for="prenom">Prenom:</label>
+            <input type="text" name="prenom" id="prenom" required/>
+          </p>
+        </div>
+        <div class=emailtelephone>
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required/>
+          </p>
+          <p>
+            <label for="telephone">Télèphone (optionnel):</label>
+            <input type="tel" name="telephone" id="telephone" maxlength="10"/>
+          </p>
+          </div>
+          <p>
+            <label for="message">Votre Message:</label>
+            <textarea class="flex col" name="message" rows="5" cols="60" required></textarea>
+          </p>
+          <p>
+            <input type="submit"  value="Envoyer">
+          </p>
+        </fieldset>
+        </div>
+        </form>
+          <div class="droit">
+          <img class="googlemap" src="img/googlemap.jpg" alt="googlemap">
+          <p>Olivier</p>
+          <p>address:</p>
+          <p>Telephone:06********</p>
+          </div>
+
+      </section>
+
+    </div
+
+  </body>
+</html>
